@@ -21,16 +21,16 @@
   @font-face {
     font-family: "MorabbaLight";
     font-display: swap;
-    src: url(../fonts/Morabba-Light.ttf) format("ttf");
+    src: url(../fonts/Morabba-Light.woff2) format("woff2");
   }
   @font-face {
     font-family: "MorabbaMedium";
     font-display: swap;
-    src: url(../fonts/Morabba-Medium.ttf) format("ttf");
+    src: url(../fonts/Morabba-Medium.woff2) format("woff2");
   }
   @font-face {
     font-family: "MorabbaBold";
     font-display: swap;
-    src: url(../fonts/Morabba-Bold.ttf) format("ttf");
+    src: url(../fonts/Morabba-Bold.woff2) format("woff2");
   }
 }

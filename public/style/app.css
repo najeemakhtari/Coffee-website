@@ -475,7 +475,7 @@ video {
 
   font-display: swap;
 
-  src: url(../fonts/Morabba-Light.ttf) format("ttf");
+  src: url(../fonts/Morabba-Light.woff2) format("woff2");
 }
 
 @font-face {
@@ -483,7 +483,7 @@ video {
 
   font-display: swap;
 
-  src: url(../fonts/Morabba-Medium.ttf) format("ttf");
+  src: url(../fonts/Morabba-Medium.woff2) format("woff2");
 }
 
 @font-face {
@@ -491,7 +491,7 @@ video {
 
   font-display: swap;
 
-  src: url(../fonts/Morabba-Bold.ttf) format("ttf");
+  src: url(../fonts/Morabba-Bold.woff2) format("woff2");
 }
 
 *, ::before, ::after {
@@ -602,34 +602,31 @@ video {
   --tw-contain-style:  ;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.rounded-4xl {
-  border-radius: 2rem;
-}
-
-.bg-brown-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 193 172 / var(--tw-bg-opacity));
+.font-MorabbaBold {
+  font-family: MorabbaBold;
 }
 
 .font-MorabbaMedium {
   font-family: MorabbaMedium;
 }
 
+.font-MorabbaLight {
+  font-family: MorabbaLight;
+}
+
+.font-Dana {
+  font-family: DanaRegular;
+}
+
+.font-DanaMedium {
+  font-family: DanaMedium;
+}
+
+.font-DanaBold {
+  font-family: DanaSemibold;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.shadow-shadow-normal {
-  --tw-shadow: 0px 1px 10px rgba(0,0,0,0.05);
-  --tw-shadow-colored: 0px 1px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
