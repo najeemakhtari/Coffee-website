@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "DanaRegular";
+    font-display: swap;
+    src: url(../fonts/dana-fanum-regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "DanaMedium";
+    font-display: swap;
+    src: url(../fonts/dana-fanum-medium.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "DanaSemibold";
+    font-display: swap;
+    src: url(../fonts/dana-fanum-bold.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "MorabbaLight";
+    font-display: swap;
+    src: url(../fonts/Morabba-Light.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: "MorabbaMedium";
+    font-display: swap;
+    src: url(../fonts/Morabba-Medium.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: "MorabbaBold";
+    font-display: swap;
+    src: url(../fonts/Morabba-Bold.ttf) format("ttf");
+  }
+}

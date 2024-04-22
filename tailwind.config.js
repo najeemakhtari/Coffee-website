@@ -17,6 +17,14 @@ module.exports = {
       borderRadius: {
         "4xl": "2rem",
       },
+      fontFamily: {
+        Dana: "DanaRegular",
+        DanaMedium: "DanaMedium",
+        DanaBold: "DanaSemibold",
+        MorabbaLight: "MorabbaLight",
+        MorabbaMedium: "MorabbaMedium",
+        MorabbaBold: "MorabbaBold",
+      },
     },
   },
   plugins: [],
