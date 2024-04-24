@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Nanjun coffee</title>
     <link rel="stylesheet" href="style/app.css" />
+    <link rel="icon" type="image/x-icon" href="./images/fav-icon.png">
   </head>
   <body>
     <!----svgs--->
@@ -18,13 +19,12 @@
       </symbol>
       <symbol id="login" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
-      </symbol>
-      
-      
+      </symbol>  
     </svg>
     <!--header-->
     <header>
-      <!--logo and Menu-->
+      <div>
+    <!--logo and Menu-->
       <nav>
         <!--logo-->
         <div>
@@ -76,23 +76,24 @@
       <div>
         <!--cart-->
         <div>
-          <svg>
+          <svg class="w-8 h-8">
             <use xlink:href="#shopping-cart"></use>
           </svg>
         </div>
         <!--theme btn-->
         <span>
-          <svg>
+          <svg class="w-8 h-8">
             <use xlink:href="#moon"></use>
           </svg>
         </span>
         <!--login & signup-->
         <a href="#">
-          <svg>
+          <svg class="w-8 h-8">
             <use xlink:href="#login"></use>
           </svg>
           ورود | ثبت نام
         </a>
+      </div>
       </div>
     </header>
     <script src="./scripts/app.js"></script>
