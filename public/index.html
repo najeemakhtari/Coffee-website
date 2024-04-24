@@ -30,35 +30,24 @@
       <nav class="flex gap-x-8 items-center">
         <!--logo-->
         <div>
-          <img src="./images/app-logo.png" alt="Nanjun coffee" class="w-12" />
+          <img src="./images/app-logo.png" alt="Nanjun coffee" class="w-12"  />
         </div>
         <!--menu-->
-        <ul class="flex gap-x-9 text-gray-300 tracking-tightest child-hover:text-orange-200">
-          <li class="font-DanaMedium text-orange-200">
+        <ul class="flex gap-x-9 text-gray-300 tracking-tightest">
+          <li class="font-DanaMedium text-orange-300">
             <a href="#">صفحه اصلی</a>
           </li>
           <!--has sub-->
-          <li>
-            <a href="#">فروشگاه</a>
+          <li class="relative group">
+            <a href="#" class="group-hover:text-orange-300">فروشگاه</a>
             <!--sub-->
-            <ul class="hidden">
-              <li>
+            <div class="absolute w-52 p-6 mt-3.5 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all space-y-4 bg-white dark:bg-zinc-700 rounded-2xl border-t-[3px] border-t-orange-300 text-zinc-700 dark:text-white tracking-normal shadow-normal child:block child-hover:transition-colors child-hover:text-orange-300 ">
                 <a href="#">اسپرسوساز اتوماتیک</a>
-              </li>
-              <li>
                 <a href="#">اسپرسوساز نیمه صنعتی</a>
-              </li>
-              <li>
                 <a href="#">دان قهوه</a>
-              </li>
-              <li>
                 <a href="#">پودر قهوه</a>
-              </li>
-              <li>
                 <a href="#">لوازم جانبی</a>
-              </li>
-              
-            </ul>
+            </div>
           </li>
           <li>
             <a href="#">ترکیب سفارشی</a>
