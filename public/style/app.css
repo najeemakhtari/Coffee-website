@@ -66,7 +66,6 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  font-family: "DanaRegular";
 }
 
 /*
@@ -603,9 +602,29 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-9 {
+  top: 2.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .flex {
@@ -672,6 +691,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -680,9 +704,31 @@ video {
   padding-right: 2.5rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.font-Dana {
+  font-family: DanaRegular;
+}
+
+.font-DanaMedium {
+  font-family: DanaMedium;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-orange-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 215 170 / var(--tw-text-opacity));
 }
 
 .dark\:bg-zinc-800:is(.dark *) {

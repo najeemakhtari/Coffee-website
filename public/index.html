@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/app.css" />
     <link rel="icon" type="image/x-icon" href="./images/fav-icon.png">
   </head>
-  <body class="bg-gray-100 dark:bg-zinc-800">
+  <body class="bg-gray-100 dark:bg-zinc-800 font-Dana">
     <!----svgs--->
     <svg class="hidden">
       <symbol id="shopping-cart" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -23,8 +23,8 @@
     </svg>
     
     <!--header-->
-    <header class="bg-black/50 w-[90%] h-24 pl-4 pr-10 py-5 mx-auto rounded-3xl flex items-center">
-      <div class="flex w-full justify-between">
+    <header class="fixed top-9 right-0 left-0 bg-black/50 w-[90%] h-24 px-10 py-5 mx-auto rounded-3xl flex items-center">
+      <div class="flex w-full justify-between items-center">
     
     <!--logo and Menu-->
       <nav class="flex gap-x-9 items-center">
@@ -33,8 +33,8 @@
           <img src="./images/app-logo.png" alt="Nanjun coffee" />
         </div>
         <!--menu-->
-        <ul class="flex gap-x-9 text-xl">
-          <li>
+        <ul class="flex gap-x-9 text-gray-300">
+          <li class="font-DanaMedium text-orange-200">
             <a href="#">صفحه اصلی</a>
           </li>
           <!--has sub-->
@@ -93,7 +93,7 @@
         </div>
       </div>
         <!--login & signup-->
-        <a href="#" class="flex">
+        <a href="#" class="flex items-center">
           <svg class="w-8 h-8">
             <use xlink:href="#login"></use>
           </svg>
