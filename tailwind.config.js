@@ -26,6 +26,9 @@ module.exports = {
         MorabbaMedium: "MorabbaMedium",
         MorabbaBold: "MorabbaBold",
       },
+      letterSpacing:{
+        "tightest":"-0.065em",
+      }
     },
   },
   plugins: [],
