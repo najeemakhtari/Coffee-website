@@ -602,31 +602,14 @@ video {
   --tw-contain-style:  ;
 }
 
-.font-MorabbaBold {
-  font-family: MorabbaBold;
+.hidden {
+  display: none;
 }
 
-.font-MorabbaMedium {
-  font-family: MorabbaMedium;
+.h-6 {
+  height: 1.5rem;
 }
 
-.font-MorabbaLight {
-  font-family: MorabbaLight;
-}
-
-.font-Dana {
-  font-family: DanaRegular;
-}
-
-.font-DanaMedium {
-  font-family: DanaMedium;
-}
-
-.font-DanaBold {
-  font-family: DanaSemibold;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.w-6 {
+  width: 1.5rem;
 }
