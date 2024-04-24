@@ -21,17 +21,19 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
       </symbol>  
     </svg>
+    
     <!--header-->
-    <header>
-      <div>
+    <header class="bg-black/50 w-[90%] h-24 pl-4 pr-10 py-5 mx-auto rounded-3xl flex items-center">
+      <div class="flex w-full justify-between">
+    
     <!--logo and Menu-->
-      <nav>
+      <nav class="flex gap-x-9">
         <!--logo-->
         <div>
           <img src="./images/app-logo.png" alt="Nanjun coffee" />
         </div>
         <!--menu-->
-        <ul>
+        <ul class="flex">
           <li>
             <a href="#">صفحه اصلی</a>
           </li>
@@ -39,7 +41,7 @@
           <li>
             <a href="#">فروشگاه</a>
             <!--sub-->
-            <ul>
+            <ul class="hidden">
               <li>
                 <a href="#">اسپرسوساز اتوماتیک</a>
               </li>
@@ -72,8 +74,11 @@
           </li>
         </ul>
       </nav>
-      <!---login & cart-->
-      <div>
+      
+      <!---login & cart and theme toggle-->
+      <div class="flex">
+        <!--cart & theme-->
+        <div class="flex gap-x-5">
         <!--cart-->
         <div>
           <svg class="w-8 h-8">
@@ -81,19 +86,21 @@
           </svg>
         </div>
         <!--theme btn-->
-        <span>
+        <div>
           <svg class="w-8 h-8">
             <use xlink:href="#moon"></use>
           </svg>
-        </span>
+        </div>
+      </div>
         <!--login & signup-->
-        <a href="#">
+        <a href="#" class="flex">
           <svg class="w-8 h-8">
             <use xlink:href="#login"></use>
           </svg>
           ورود | ثبت نام
         </a>
       </div>
+
       </div>
     </header>
     <script src="./scripts/app.js"></script>
