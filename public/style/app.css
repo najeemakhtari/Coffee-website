@@ -753,20 +753,8 @@ body{
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-6 {
@@ -817,38 +805,22 @@ body{
   border-radius: 1.5rem;
 }
 
-.border-t-\[3px\] {
-  border-top-width: 3px;
-}
-
-.border-b-4 {
-  border-bottom-width: 4px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
 .border-b-\[1px\] {
   border-bottom-width: 1px;
 }
 
-.border-b-\[2px\] {
-  border-bottom-width: 2px;
-}
-
-.border-t-orange-300 {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(253 186 116 / var(--tw-border-opacity));
-}
-
-.border-b-white\/10 {
-  border-bottom-color: rgb(255 255 255 / 0.1);
+.border-t-\[3px\] {
+  border-top-width: 3px;
 }
 
 .border-b-gray-300 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.border-t-orange-300 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(253 186 116 / var(--tw-border-opacity));
 }
 
 .bg-black\/50 {
@@ -892,10 +864,6 @@ body{
   padding-bottom: 1.25rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -906,10 +874,6 @@ body{
 
 .font-DanaMedium {
   font-family: DanaMedium;
-}
-
-.font-DanaBold {
-  font-family: DanaSemibold;
 }
 
 .text-base {
