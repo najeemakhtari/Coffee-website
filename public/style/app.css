@@ -677,6 +677,10 @@ body{
   height: 1.75rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -699,6 +703,18 @@ body{
 
 .w-px {
   width: 1px;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .cursor-pointer {
