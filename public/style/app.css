@@ -852,12 +852,12 @@ body{
   letter-spacing: 0em;
 }
 
-.tracking-tightest {
-  letter-spacing: -0.065em;
-}
-
 .tracking-tighter {
   letter-spacing: -0.05em;
+}
+
+.tracking-tightest {
+  letter-spacing: -0.065em;
 }
 
 .text-gray-300 {
