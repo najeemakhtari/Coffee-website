@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="style/app.css" />
     <link rel="icon" type="image/x-icon" href="./images/fav-icon.png">
     <script>
-        
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark')
+         } else {
+         document.documentElement.classList.remove('dark')
+}
     </script>
   </head>
   <body class="bg-gray-100 dark:bg-zinc-800 font-Dana">
@@ -85,7 +89,7 @@
         </div>
         </div>
         <!--theme btn-->
-        <div class="cursor-pointer" id="theme-toggle">
+        <div class="cursor-pointer" id="toggle-theme">
           <svg class="inline-block dark:hidden w-7 h-7">
             <use href="#moon"></use>
           </svg>

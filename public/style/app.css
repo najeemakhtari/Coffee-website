@@ -889,10 +889,6 @@ body{
   transition-duration: 150ms;
 }
 
-.dark\:block:is(.dark *) {
-  display: block;
-}
-
 .dark\:inline-block:is(.dark *) {
   display: inline-block;
 }
