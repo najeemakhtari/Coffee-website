@@ -221,7 +221,7 @@
     </header>
 
     <!--header mobile-->
-    <div class="bg-white dark:bg-zinc-700 md:hidden flex items-center justify-between h-16 px-4">
+    <div class="bg-white dark:bg-zinc-700 md:hidden flex items-center justify-between h-16">
       <!--bars btn-->
       <div id="bars-btn">
         <svg class="w-8 h-8 text-zinc-700 dark:text-white">
@@ -230,10 +230,10 @@
       </div>
 
       <!-- mobile menu-->
-      <div class="fixed top-0 right-0 bottom-0 bg-white dark:bg-zinc-700 w-64 h-full z-20 pt-3 px-4">
+      <div class="fixed top-0 right-0 bottom-0 bg-white dark:bg-zinc-700 w-64 h-full z-20 pt-3 ">
         
         <!--menu header-->
-        <div class="flex items-center justify-between border-b border-b-gray-100 dark:border-b-white/10 pb-5 mb-6">
+        <div class="flex items-center justify-between border-b border-b-gray-100 dark:border-b-white/10 pb-5 mb-6 px-3">
 
           <div class="flex gap-3">
             <svg class="w-10 h-10">
@@ -249,9 +249,9 @@
         </div>
         
         <!--menu body-->
-         <ul class="text-white space-y-5 pb-5">
+         <ul class="text-zinc-600 dark:text-white space-y-5 pb-5 child:mr-2 child:ml-2 child:pr-2">
          
-          <li>
+          <li class="text-orange-300 bg-orange-200/20 h-10 rounded-md flex items-center">
             <a href="#" class="flex gap-x-2">
               <svg class="w-5 h-5">
                 <use href="#home"></use>
@@ -260,7 +260,7 @@
             </a>
           </li>
 
-          <li class="flex justify-between items-center">
+          <li class="flex justify-between items-center pl-3">
             <a href="#" class="flex gap-x-2">
               <svg class="w-5 h-5"> 
                 <use href="#shopping"></use>
@@ -312,7 +312,7 @@
 
          </ul>
         <!--menu footer-->
-        <div class="space-y-5 child:flex child:text-orange-300 child:items-center border-t border-t-gray-100 dark:border-t-white/10 pt-5">
+        <div class="space-y-5 child:flex child:text-orange-300 child:items-center border-t border-t-gray-100 dark:border-t-white/10 pt-5 pr-4">
         
           <!--mobile nav login btn-->
           <a href="#" class=" gap-3">
@@ -355,7 +355,7 @@
         </svg>
       </div>
     </div>
-    <div class="overlay md:hidden fixed inset-0 w-full h-full bg-black/40  z-10"></div>
+    <div class="overlay md:hidden fixed inset-0 w-full h-full bg-black/40 backdrop-blur-[2px]  z-10"></div>
     <script src="./scripts/app.js"></script>
   </body>
 </html>
