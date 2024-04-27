@@ -1,5 +1,6 @@
 "use strict";
 
+////theme toggle 
 const toggleBtns = document.querySelectorAll('.toggle-btn')
 
 toggleBtns.forEach(btn =>{
@@ -13,9 +14,17 @@ toggleBtns.forEach(btn =>{
     }
     })
 })
+
+//////mobile nav dropdown
 const mobileNavDropDownBtn = document.querySelector('#nav-dropdown');
 const dropDownElem = document.querySelector('.submenu');
 mobileNavDropDownBtn.addEventListener('click', ()=>{
     dropDownElem.classList.toggle('open-submenu')
     mobileNavDropDownBtn.classList.toggle('text-orange-300')
+})
+
+////// mobile nav open and close
+const mobileNavCloseBtn = document.querySelector('#nav-close');
+mobileNavCloseBtn.addEventListener('click',()=>{
+    console.log('hello')
 })
