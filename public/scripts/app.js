@@ -63,5 +63,14 @@ mobileShoppingCloseBtn.addEventListener('click',()=>{
     overlayElem.classList.remove('overlay--visible')
 })
 
+//////overlay clicking handler
+overlayElem.addEventListener('click',()=>{
+    overlayElem.classList.remove('overlay--visible')
+    mobileNavElem.classList.remove('right-0');
+    mobileNavElem.classList.add('-right-64');
+    mobileShoppingElem.classList.remove('left-0');
+    mobileShoppingElem.classList.add('-left-64')
+})
+
 
 

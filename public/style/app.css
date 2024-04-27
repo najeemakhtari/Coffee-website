@@ -677,6 +677,10 @@ body{
   position: relative;
 }
 
+.-left-64 {
+  left: -16rem;
+}
+
 .-right-64 {
   right: -16rem;
 }
@@ -699,18 +703,6 @@ body{
 
 .top-9 {
   top: 2.25rem;
-}
-
-.-left-64 {
-  left: -16rem;
-}
-
-.left-64 {
-  left: 16rem;
-}
-
-.-left-10 {
-  left: -2.5rem;
 }
 
 .z-20 {
