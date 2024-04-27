@@ -29,9 +29,24 @@ mobileNavDropDownBtn.addEventListener('click', ()=>{
 ////// mobile nav open and close
 const mobileNavCloseBtn = document.querySelector('#nav-close');
 const mobileNavElem = document.querySelector('#mobile-nav');
-const overlayElem = document.querySelector('.overlay')
+const overlayElem = document.querySelector('.overlay');
+const barsBtn = document.querySelector('#bars-btn');
+
+///open
+barsBtn.addEventListener('click',()=>{
+    mobileNavElem.classList.add('right-0');
+    mobileNavElem.classList.remove('-right-64');
+    overlayElem.classList.add('overlay--visible')
+})
+
+////close
 mobileNavCloseBtn.addEventListener('click',()=>{
     mobileNavElem.classList.remove('right-0');
     mobileNavElem.classList.add('-right-64');
-
+    overlayElem.classList.remove('overlay--visible')
 })
+
+
+
+
+

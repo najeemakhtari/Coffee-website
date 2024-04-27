@@ -50,4 +50,10 @@
   .open-submenu{
     @apply flex;
   }
+  .overlay{
+  @apply  md:hidden fixed inset-0 w-full h-full bg-black/40 backdrop-blur-[2px]  z-10 invisible opacity-0 transition-all;
+  }
+  .overlay--visible{
+    @apply opacity-100 visible;
+  }
 }
