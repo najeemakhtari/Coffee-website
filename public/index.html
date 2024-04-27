@@ -365,19 +365,19 @@
         </svg>
       </div>
       <!--shopping aside-->
-      <div class="fixed top-0 left-0 bottom-0 bg-white dark:bg-zinc-700 w-64 h-full z-20 pt-5 px-3 overflow-auto  transition-all" id="mobile-shopping">
+      <div class="fixed flex flex-col justify-between top-0 left-0 bottom-0 bg-white dark:bg-zinc-700 w-64 h-full z-20 pt-5 px-3 overflow-auto  transition-all" id="mobile-shopping">
   
         <div>
-        <!--shopping header--> 
-        <div class="flex items-center justify-between border-b dark:border-b-white/10 text-zinc-700 dark:text-white pb-5 text-sm">
+        <!--mobile shopping header--> 
+        <div class="flex items-center justify-between border-b  dark:border-b-white/10 text-zinc-700 dark:text-white pb-5 font-DanaMedium">
             <svg class="w-5 h-5">
               <use href="#close"></use>
             </svg>
             <span>سبد خرید</span>
         </div>
         
-        <!--shopping body-->
-        <div class="flex items-center border-b dark:border-b-white/10 py-2">
+        <!--mobile shopping body-->
+        <div class="flex items-center border-b-2 border-orange-200/20 dark:border-b-white/10 py-2">
             <img src="./images//products/p1.png" alt="product 1" class="w-[100px] h-[100px]" />
           <div class="flex flex-col justify-between gap-2">
             <h4 class="text-sm text-zinc-700 dark:text-white line-clamp-2">قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی</h4>
@@ -390,7 +390,7 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center border-b dark:border-b-white/10 py-2">
+        <div class="flex items-center border-b-2 border-orange-200/20 dark:border-b-white/10 py-2">
           <img src="./images//products/p3.png" alt="product 2" class="w-[100px] h-[100px]" />
         <div class="flex flex-col justify-between gap-2">
           <h4 class="text-sm text-zinc-700 dark:text-white line-clamp-2">قهوه اسپرسو بن مانو مدل ترکیبی 500 گرمی</h4>
@@ -403,11 +403,18 @@
           </div>
         </div>
         </div>
+        </div>
+
+      <!--mobile shopping footer-->
+      <div class="flex justify-between items-center">
+          <a href="#" class="bg-teal-600 px-4 py-2 dark:bg-emerald-500 text-white rounded-lg ">ثبت سفارش</a>
+          <div class="flex flex-col ">
+            <span class="text-[12px] text-zinc-300">مبلغ قابل پرداخت</span>
+            <span class="font-DanaMedium dark:text-white">525،000 <span class="text-[12px] font-Dana">تومان</span></span>
+
+          </div>  
       </div>
 
-      <div>
-        
-      </div>
       </div>
     </div>
     <div class="overlay"></div>
