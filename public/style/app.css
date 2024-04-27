@@ -701,14 +701,6 @@ body{
   top: 2.25rem;
 }
 
-.left-64 {
-  left: 16rem;
-}
-
-.-left-64 {
-  left: -16rem;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -716,11 +708,6 @@ body{
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
 }
 
 .mb-6 {
@@ -810,6 +797,14 @@ body{
   height: 100%;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -870,6 +865,14 @@ body{
   width: 1px;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -892,6 +895,10 @@ body{
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-x-2 {
@@ -1050,11 +1057,6 @@ body{
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-3 {
