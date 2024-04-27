@@ -13,5 +13,9 @@ toggleBtns.forEach(btn =>{
     }
     })
 })
-
-
+const mobileNavDropDownBtn = document.querySelector('#nav-dropdown');
+const dropDownElem = document.querySelector('.submenu');
+mobileNavDropDownBtn.addEventListener('click', ()=>{
+    dropDownElem.classList.toggle('open-submenu')
+    mobileNavDropDownBtn.classList.toggle('text-orange-300')
+})

@@ -608,6 +608,27 @@ body{
   --tw-contain-style:  ;
 }
 
+.submenu {
+  margin-top: 0.75rem;
+  display: none;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  padding-right: 1.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(82 82 91 / var(--tw-text-opacity));
+}
+
+.submenu:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.open-submenu {
+  display: flex;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -661,11 +682,6 @@ body{
   margin-right: auto;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -684,10 +700,6 @@ body{
 
 .mt-\[2px\] {
   margin-top: 2px;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .line-clamp-2 {
@@ -866,10 +878,6 @@ body{
        column-gap: 1.5rem;
 }
 
-.gap-y-3 {
-  row-gap: 0.75rem;
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1025,10 +1033,6 @@ body{
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pr-7 {
-  padding-right: 1.75rem;
 }
 
 .font-Dana {
