@@ -46,7 +46,22 @@ mobileNavCloseBtn.addEventListener('click',()=>{
     overlayElem.classList.remove('overlay--visible')
 })
 
-
+////////mobile shopping close and open
+const mobileShoppingCloseBtn = document.querySelector('#close-shopping');
+const mobileShoppingElem = document.querySelector('#mobile-shopping');
+const mobileCartIcon = document.querySelector('#mobile-cart-icon')
+//open
+mobileCartIcon.addEventListener('click',()=>{
+    mobileShoppingElem.classList.remove('-left-64')
+    mobileShoppingElem.classList.add('left-0');
+    overlayElem.classList.add('overlay--visible')
+})
+///close
+mobileShoppingCloseBtn.addEventListener('click',()=>{
+    mobileShoppingElem.classList.remove('left-0');
+    mobileShoppingElem.classList.add('-left-64')
+    overlayElem.classList.remove('overlay--visible')
+})
 
 
 
