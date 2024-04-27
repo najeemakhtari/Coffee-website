@@ -230,7 +230,7 @@
       </div>
 
       <!-- mobile menu-->
-      <div class="fixed top-0 right-0 bottom-0 bg-white dark:bg-zinc-700 w-64 h-full z-20 pt-3 ">
+      <div class="fixed top-0 right-0 bottom-0 bg-white dark:bg-zinc-700 w-64 h-full z-20 pt-3 overflow-auto  transition-all" id="mobile-nav">
         
         <!--menu header-->
         <div class="flex items-center justify-between border-b border-b-gray-100 dark:border-b-white/10 pb-5 mb-6 px-3">
@@ -269,7 +269,7 @@
                 فروشگاه
               </a>
               <span>
-                <svg class="w-3 h-3">
+                <svg class="w-3 h-3 transition-all" id="dropdown-arrow">
                   <use href="#arrow-down"></use>
                 </svg>
               </span>
@@ -285,7 +285,7 @@
 
           <li>
             <a href="#" class="flex gap-x-2">
-              <svg class="w-5 h-5">
+              <svg class="w-5 h-5" >
                 <use href="#order"></use>
               </svg>
               ترکیب سفارشی
@@ -321,7 +321,7 @@
 
          </ul>
         <!--menu footer-->
-        <div class="space-y-5 child:flex child:text-orange-300 child:items-center border-t border-t-gray-100 dark:border-t-white/10 pt-5 pr-4">
+        <div class="space-y-5 child:flex child:text-orange-300 child:items-center border-t border-t-gray-100 dark:border-t-white/10 pt-5 pr-4 pb-5">
         
           <!--mobile nav login btn-->
           <a href="#" class=" gap-3">
@@ -364,7 +364,7 @@
         </svg>
       </div>
     </div>
-    <div class="overlay md:hidden fixed inset-0 w-full h-full bg-black/40 backdrop-blur-[2px]  z-10"></div>
+    <div class="overlay md:hidden fixed inset-0 w-full h-full bg-black/40 backdrop-blur-[2px]  z-10 transition-all"></div>
     <script src="./scripts/app.js"></script>
   </body>
 </html>

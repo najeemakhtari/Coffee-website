@@ -608,6 +608,10 @@ body{
   --tw-contain-style:  ;
 }
 
+.rotate-arrow{
+  transform: rotate(180deg);
+}
+
 .submenu {
   margin-top: 0.75rem;
   display: none;
@@ -647,6 +651,10 @@ body{
 
 .inset-0 {
   inset: 0px;
+}
+
+.-right-64 {
+  right: -16rem;
 }
 
 .bottom-0 {
@@ -888,6 +896,10 @@ body{
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .rounded-2xl {

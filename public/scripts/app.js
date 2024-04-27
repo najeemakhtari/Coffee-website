@@ -18,13 +18,20 @@ toggleBtns.forEach(btn =>{
 //////mobile nav dropdown
 const mobileNavDropDownBtn = document.querySelector('#nav-dropdown');
 const dropDownElem = document.querySelector('.submenu');
+const dropDownArrow = document.querySelector("#dropdown-arrow");
 mobileNavDropDownBtn.addEventListener('click', ()=>{
-    dropDownElem.classList.toggle('open-submenu')
-    mobileNavDropDownBtn.classList.toggle('text-orange-300')
+    dropDownElem.classList.toggle('open-submenu');
+    mobileNavDropDownBtn.classList.toggle('text-orange-300');
+    dropDownArrow.classList.toggle('rotate-arrow')
+
 })
 
 ////// mobile nav open and close
 const mobileNavCloseBtn = document.querySelector('#nav-close');
+const mobileNavElem = document.querySelector('#mobile-nav');
+const overlayElem = document.querySelector('.overlay')
 mobileNavCloseBtn.addEventListener('click',()=>{
-    console.log('hello')
+    mobileNavElem.classList.remove('right-0');
+    mobileNavElem.classList.add('-right-64');
+
 })
