@@ -3,6 +3,7 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   darkMode: "class",
   theme: {
+    
     extend: {
       colors: {
         brown: {
@@ -30,6 +31,13 @@ module.exports = {
         "tightest":"-0.065em",
       }
     },
+    container:{
+      center: true,
+      padding:{
+        default:'1rem',
+        lg: '0.625rem',
+      }
+    }
   },
   plugins: [
     function({addVariant}){
