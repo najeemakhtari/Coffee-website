@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     
     extend: {
+      
       colors: {
         brown: {
           100: "#ECE0D1",
