@@ -494,11 +494,7 @@ video {
   src: url(../fonts/Morabba-Bold.woff2) format("woff2");
 }
 
-body{
-  background-image: url(../images/headerBgDesktop.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -1102,16 +1098,6 @@ body{
 
 .bg-white\/20 {
   background-color: rgb(255 255 255 / 0.2);
-}
-
-.bg-orange-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
-}
-
-.bg-emerald-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
 .p-4 {
